@@ -3,8 +3,8 @@
 <?import javafx.scene.canvas.Canvas?>
 <?import javafx.scene.layout.StackPane?>
 
-<StackPane fx:id="root" prefHeight="800" prefWidth="1000" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.project.Controller.GameController">
+<StackPane fx:id="root" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.project.Controller.GameController">
    <children>
-      <Canvas fx:id="canvas" height="800.0" width="1000.0" />
+      <Canvas fx:id="canvas" height="450.0" width="800.0" />
    </children>
 </StackPane>

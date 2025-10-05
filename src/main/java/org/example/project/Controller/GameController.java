@@ -52,7 +52,6 @@ public class GameController {
         // Key events
         root.setOnKeyPressed(this::keyPressed);
         root.setOnKeyReleased(this::keyReleased);
-
         // Cho phép root nhận phím
 
         Platform.runLater(() -> root.requestFocus());
@@ -74,9 +73,9 @@ public class GameController {
         if (event.getCode() == KeyCode.J) leftPressed = true;
         if (event.getCode() == KeyCode.L) rightPressed = true;
         if (event.getCode() == KeyCode.SPACE&&ball.isReset()) {
-            if (!spacePressed) {       // Chỉ chạy lần đầu
+            if (!spacePressed) {
                 spacePressed = true;
-                ball.shoot();          // hành động 1 lần
+                ball.shoot();
             }
         }
     }
